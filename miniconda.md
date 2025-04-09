@@ -1,5 +1,5 @@
 
-# ✅ Ubuntuをインストールして，そこににMinicondaをインストールする手順
+# ✅ Ubuntuをインストールして，そこにMinicondaをインストールする手順
 
 ## 🔹 Step 1: Ubuntuをインストール
 ```
