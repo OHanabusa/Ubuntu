@@ -1,5 +1,4 @@
 
-```markdown
 # ✅ UbuntuにMinicondaをインストールする手順
 
 ## 🔹 Step 1: Minicondaのインストーラをダウンロード
