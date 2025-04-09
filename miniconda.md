@@ -31,7 +31,7 @@ source ~/miniconda3/bin/activate
 conda update -n base -c defaults conda
 ```
 
-## 🔹 Step 5: FEniCS用の仮想環境を作成
+## 🔹 Step 5: (必要であれば)FEniCS用の仮想環境を作成
 
 ```bash
 conda create -n fenics python=3.8 
