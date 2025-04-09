@@ -36,7 +36,7 @@ conda update -n base -c defaults conda
 ## 🔹 Step 5: FEniCS用の仮想環境を作成
 
 ```bash
-conda create -n fenics -c conda-forge fenics
+conda create -n fenics python=3.8 -c conda-forge fenics matplotlib meshio
 conda activate fenics
 ```
 
