@@ -1,7 +1,7 @@
 
 # ✅ Ubuntuをインストールして，そこにMinicondaをインストールする手順
 
-## 🔹 Step 1: Ubuntuをインストール
+## 🔹 Step 1: Command Prompt を開き，Ubuntuをインストール
 ```
 wsl --install
 wsl
