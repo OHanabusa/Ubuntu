@@ -44,4 +44,3 @@ conda install -c conda-forge fenics matplotlib meshio
 ```bash
 python -c "from dolfin import *; print('FEniCS is ready!')"
 ```
-```
