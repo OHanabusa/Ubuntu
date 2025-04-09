@@ -1,4 +1,3 @@
-以下は、`miniconda.md`の内容を読みやすくしたものです。
 
 ```markdown
 # ✅ UbuntuにMinicondaをインストールする手順
