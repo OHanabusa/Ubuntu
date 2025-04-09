@@ -6,7 +6,6 @@
 ```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
-※ARMアーキテクチャ（例: Raspberry Pi）の場合は別URLになるので要確認。
 
 ## 🔹 Step 2: インストーラを実行
 
@@ -29,15 +28,15 @@ source ~/miniconda3/bin/activate
 ## 🔹 Step 4: conda コマンドの確認＆更新
 
 ```bash
-conda --version  # 最新の4.xになっているか確認
 conda update -n base -c defaults conda
 ```
 
 ## 🔹 Step 5: FEniCS用の仮想環境を作成
 
 ```bash
-conda create -n fenics python=3.8 -c conda-forge fenics matplotlib meshio
+conda create -n fenics python=3.8 
 conda activate fenics
+conda install -c conda-forge fenics matplotlib meshio
 ```
 
 ## ✅ 動作確認（PythonでFEniCS）
