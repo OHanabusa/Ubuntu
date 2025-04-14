@@ -50,7 +50,7 @@ conda install -c conda-forge fenics matplotlib meshio
 ## ✅ 動作確認（PythonでFEniCS）
 
 ```bash
-python -c "from dolfin import *; print('FEniCS is ready!')"
+python -c "from dolfin import *; print('FEniCS is ready')"
 ```
 ## 補足
 その他jupyter等が必要であれば，ChatGPT（ubuntuでjupyterのインストール）や検索して追加してください．
